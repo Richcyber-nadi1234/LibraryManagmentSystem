@@ -1,0 +1,17 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the  and  formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the books_init() hook (in hooks/books.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="books-ISBN_NO-<%%VALUE(id)%%>" class="books-ISBN_NO"><%%VALUE(ISBN_NO)%%></td>
+		<td id="books-Book_Title-<%%VALUE(id)%%>" class="books-Book_Title"><%%VALUE(Book_Title)%%></td>
+		<td id="books-Book_Type-<%%VALUE(id)%%>" class="books-Book_Type"><%%VALUE(Book_Type)%%></td>
+		<td id="books-Author_Name-<%%VALUE(id)%%>" class="books-Author_Name"><%%VALUE(Author_Name)%%></td>
+		<td id="books-Quantity-<%%VALUE(id)%%>" class="books-Quantity text-right"><%%VALUE(Quantity)%%></td>
+		<td id="books-Purchase_Date-<%%VALUE(id)%%>" class="books-Purchase_Date"><%%VALUE(Purchase_Date)%%></td>
+		<td id="books-Edition-<%%VALUE(id)%%>" class="books-Edition"><%%VALUE(Edition)%%></td>
+		<td id="books-Price-<%%VALUE(id)%%>" class="books-Price text-right"><%%VALUE(Price)%%></td>
+		<td id="books-Pages-<%%VALUE(id)%%>" class="books-Pages text-right"><%%VALUE(Pages)%%></td>
+		<td id="books-Publisher-<%%VALUE(id)%%>" class="books-Publisher"><%%VALUE(Publisher)%%></td>

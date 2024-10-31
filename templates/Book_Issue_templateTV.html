@@ -1,0 +1,15 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%SELECT%%> and <%%ENDSELECT%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the Book_Issue_init() hook (in hooks/Book_Issue.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="Book_Issue-issue_id-<%%VALUE(id)%%>" class="Book_Issue-issue_id"><%%SELECT%%><%%VALUE(issue_id)%%><%%ENDSELECT%%></td>
+		<td id="Book_Issue-Member-<%%VALUE(id)%%>" class="Book_Issue-Member"><%%SELECT%%><%%VALUE(Member)%%><%%ENDSELECT%%></td>
+		<td id="Book_Issue-Number-<%%VALUE(id)%%>" class="Book_Issue-Number"><%%SELECT%%><%%VALUE(Number)%%><%%ENDSELECT%%></td>
+		<td id="Book_Issue-Book_Number-<%%VALUE(id)%%>" class="Book_Issue-Book_Number"><%%SELECT%%><%%VALUE(Book_Number)%%><%%ENDSELECT%%></td>
+		<td id="Book_Issue-Book_Title-<%%VALUE(id)%%>" class="Book_Issue-Book_Title"><%%SELECT%%><%%VALUE(Book_Title)%%><%%ENDSELECT%%></td>
+		<td id="Book_Issue-Issue_Date-<%%VALUE(id)%%>" class="Book_Issue-Issue_Date"><%%SELECT%%><%%VALUE(Issue_Date)%%><%%ENDSELECT%%></td>
+		<td id="Book_Issue-Return_Date-<%%VALUE(id)%%>" class="Book_Issue-Return_Date"><%%SELECT%%><%%VALUE(Return_Date)%%><%%ENDSELECT%%></td>
+		<td id="Book_Issue-Status-<%%VALUE(id)%%>" class="Book_Issue-Status"><%%SELECT%%><%%VALUE(Status)%%><%%ENDSELECT%%></td>

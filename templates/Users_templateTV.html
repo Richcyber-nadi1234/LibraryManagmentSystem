@@ -1,0 +1,11 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%SELECT%%> and <%%ENDSELECT%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the Users_init() hook (in hooks/Users.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="Users-Membership_Number-<%%VALUE(id)%%>" class="Users-Membership_Number"><%%SELECT%%><%%VALUE(Membership_Number)%%><%%ENDSELECT%%></td>
+		<td id="Users-Name-<%%VALUE(id)%%>" class="Users-Name"><%%SELECT%%><%%VALUE(Name)%%><%%ENDSELECT%%></td>
+		<td id="Users-Contact-<%%VALUE(id)%%>" class="Users-Contact"><%%SELECT%%><%%VALUE(Contact)%%><%%ENDSELECT%%></td>
+		<td id="Users-ID_Number-<%%VALUE(id)%%>" class="Users-ID_Number text-right"><%%SELECT%%><%%VALUE(ID_Number)%%><%%ENDSELECT%%></td>

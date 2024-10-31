@@ -1,0 +1,15 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the  and  formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the NewsPapers_init() hook (in hooks/NewsPapers.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="NewsPapers-Language-<%%VALUE(id)%%>" class="NewsPapers-Language"><%%VALUE(Language)%%></td>
+		<td id="NewsPapers-Name-<%%VALUE(id)%%>" class="NewsPapers-Name"><%%VALUE(Name)%%></td>
+		<td id="NewsPapers-Date_Of_Receipt-<%%VALUE(id)%%>" class="NewsPapers-Date_Of_Receipt"><%%VALUE(Date_Of_Receipt)%%></td>
+		<td id="NewsPapers-Date_Published-<%%VALUE(id)%%>" class="NewsPapers-Date_Published"><%%VALUE(Date_Published)%%></td>
+		<td id="NewsPapers-Pages-<%%VALUE(id)%%>" class="NewsPapers-Pages text-right"><%%VALUE(Pages)%%></td>
+		<td id="NewsPapers-Price-<%%VALUE(id)%%>" class="NewsPapers-Price text-right"><%%VALUE(Price)%%></td>
+		<td id="NewsPapers-Type-<%%VALUE(id)%%>" class="NewsPapers-Type"><%%VALUE(Type)%%></td>
+		<td id="NewsPapers-Publisher-<%%VALUE(id)%%>" class="NewsPapers-Publisher"><%%VALUE(Publisher)%%></td>

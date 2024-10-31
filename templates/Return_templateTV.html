@@ -1,0 +1,16 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%SELECT%%> and <%%ENDSELECT%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the Return_init() hook (in hooks/Return.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="Return-Book_Number-<%%VALUE(id)%%>" class="Return-Book_Number"><%%SELECT%%><%%VALUE(Book_Number)%%><%%ENDSELECT%%></td>
+		<td id="Return-Book_Title-<%%VALUE(id)%%>" class="Return-Book_Title"><%%SELECT%%><%%VALUE(Book_Title)%%><%%ENDSELECT%%></td>
+		<td id="Return-Issue_Date-<%%VALUE(id)%%>" class="Return-Issue_Date"><%%SELECT%%><%%VALUE(Issue_Date)%%><%%ENDSELECT%%></td>
+		<td id="Return-Due_Date-<%%VALUE(id)%%>" class="Return-Due_Date"><%%SELECT%%><%%VALUE(Due_Date)%%><%%ENDSELECT%%></td>
+		<td id="Return-Return_Date-<%%VALUE(id)%%>" class="Return-Return_Date"><%%SELECT%%><%%VALUE(Return_Date)%%><%%ENDSELECT%%></td>
+		<td id="Return-Member-<%%VALUE(id)%%>" class="Return-Member"><%%SELECT%%><%%VALUE(Member)%%><%%ENDSELECT%%></td>
+		<td id="Return-Number-<%%VALUE(id)%%>" class="Return-Number"><%%SELECT%%><%%VALUE(Number)%%><%%ENDSELECT%%></td>
+		<td id="Return-Fine-<%%VALUE(id)%%>" class="Return-Fine text-right"><%%SELECT%%><%%VALUE(Fine)%%><%%ENDSELECT%%></td>
+		<td id="Return-Status-<%%VALUE(id)%%>" class="Return-Status"><%%SELECT%%><%%VALUE(Status)%%><%%ENDSELECT%%></td>
