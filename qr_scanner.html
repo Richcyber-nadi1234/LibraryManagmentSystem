@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Scanner</title>
+    <!-- Ensure the CDN is loaded first -->
+    <script src="https://cdn.jsdelivr.net/npm/instascan@1.0.0/min/instascan.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #0066cc;
+        }
+
+        header p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .scanner {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        video {
+            width: 100%;
+            max-height: 300px;
+            background-color: #000;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+
+        button {
+            padding: 10px 15px;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #0066cc;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #005bb5;
+        }
+
+        .preview {
+            margin: 20px 0;
+            padding: 15px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .preview h2 {
+            margin-bottom: 10px;
+        }
+
+        .preview div {
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0066cc;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>QR Code Scanner</h1>
+            <p>Scan a QR code to add user details</p>
+        </header>
+
+        <section class="scanner">
+            <video id="preview"></video>
+            <button id="startScan">Start Scanner</button>
+        </section>
+
+        <section class="preview">
+            <h2>Scanned Data</h2>
+            <div id="dataDisplay">
+                <p><strong>Membership Number:</strong> <span id="membershipNumber"></span></p>
+                <p><strong>Name:</strong> <span id="name"></span></p>
+                <p><strong>Contact:</strong> <span id="contact"></span></p>
+                <p><strong>ID Number:</strong> <span id="idNumber"></span></p>
+            </div>
+            <button id="submitData">Submit Data</button>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Library Management System</p>
+        </footer>
+    </div>
+
+    <!-- No need to load Instascan.js twice -->
+    <!-- The script below is removed since it's redundant -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const startScanButton = document.getElementById("startScan");
+            const submitDataButton = document.getElementById("submitData");
+
+            const membershipNumberElem = document.getElementById("membershipNumber");
+            const nameElem = document.getElementById("name");
+            const contactElem = document.getElementById("contact");
+            const idNumberElem = document.getElementById("idNumber");
+
+            let scanner;
+
+            // Initialize QR code scanner
+            startScanButton.addEventListener("click", () => {
+                // Initialize scanner if not already
+                if (!scanner) {
+                    scanner = new Instascan.Scanner({ video: document.getElementById("preview") });
+                }
+
+                // Add scan listener
+                scanner.addListener("scan", (content) => {
+                    try {
+                        const data = JSON.parse(content);
+                        membershipNumberElem.textContent = data.Membership_Number || "N/A";
+                        nameElem.textContent = data.Name || "N/A";
+                        contactElem.textContent = data.Contact || "N/A";
+                        idNumberElem.textContent = data.ID_Number || "N/A";
+                    } catch (error) {
+                        console.error("Error parsing QR code content:", error);
+                        alert("Invalid QR code format!");
+                    }
+                });
+
+                // Get available cameras and start the scanner
+                Instascan.Camera.getCameras()
+                    .then((cameras) => {
+                        if (cameras.length > 0) {
+                            scanner.start(cameras[0]);
+                        } else {
+                            alert("No cameras found!");
+                        }
+                    })
+                    .catch((error) => {
+                        console.error("Camera initialization failed:", error);
+                        alert("Failed to initialize camera!");
+                    });
+            });
+
+            // Submit data to the server
+            submitDataButton.addEventListener("click", () => {
+                const userData = {
+                    Membership_Number: membershipNumberElem.textContent,
+                    Name: nameElem.textContent,
+                    Contact: contactElem.textContent,
+                    ID_Number: idNumberElem.textContent,
+                };
+
+                fetch("qrscan.php", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(userData),
+                })
+                    .then((response) => response.json())
+                    .then((data) => {
+                        alert(data.message);
+                        // Optionally, reset the form
+                        membershipNumberElem.textContent = "";
+                        nameElem.textContent = "";
+                        contactElem.textContent = "";
+                        idNumberElem.textContent = "";
+                    })
+                    .catch((error) => {
+                        console.error("Error:", error);
+                        alert("Failed to submit data!");
+                    });
+            });
+        });
+    </script>
+</body>
+</html>

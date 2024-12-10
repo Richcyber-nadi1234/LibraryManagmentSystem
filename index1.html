@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Search</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <input type="text" id="search" placeholder="Search for books..." onkeyup="liveSearch()" />
+    <table>
+        <thead>
+            <tr>
+                <th>Book Title</th>
+                <th>Author Name</th>
+            </tr>
+        </thead>
+        <tbody id="search-results">
+            <!-- Results will appear here -->
+        </tbody>
+    </table>
+
+    <script>
+        function liveSearch() {
+            const search = $('#search').val();
+            $.ajax({
+                url: 'search.php',
+                method: 'POST',
+                data: { search: search },
+                success: function (response) {
+                    $('#search-results').html(response);
+                }
+            });
+        }
+    </script>
+</body>
+</html>

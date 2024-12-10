@@ -1,0 +1,86 @@
+{
+    "id": 365,
+    "date": "2021-03-30T15:20:00",
+    "date_gmt": "2021-03-30T15:20:00",
+    "guid": {
+        "rendered": "https:\/\/library.ttu.edu.gh\/?page_id=365"
+    },
+    "modified": "2021-03-30T19:19:24",
+    "modified_gmt": "2021-03-30T19:19:24",
+    "slug": "services",
+    "status": "publish",
+    "type": "page",
+    "link": "https:\/\/library.ttu.edu.gh\/",
+    "title": {
+        "rendered": "<center>Services<\/center>"
+    },
+    "content": {
+        "rendered": "<p>\t\t<div class=\"wpsm_service_b_row\" id=\"wpsm_service_b_row_364\">\r\n\t\t\t<div class=\"wpsm_row\"> \r\n<style>\r\n.wpsm_row{\r\n\toverflow:hidden;\r\n\tdisplay:block;\r\n\twidth:100%;\r\n}\r\n.wpsm_service_b_row{ \r\n\toverflow:hidden;\r\n\tdisplay:block;\r\n\twidth:100%;\r\n\tborder:0px solid #ddd;\r\n\tmargin-bottom:20px;\r\n}\r\n #wpsm_service_b_row_364 .wpsm_serviceBox{\r\n\tpadding:30px 0 ;\r\n\tmargin-bottom:20px;\r\n}\r\n#wpsm_service_b_row_364 .wpsm_serviceBox .wpsm_service-icon{\r\n\tbackground:#dddddd !important;\r\n\theight: 70px;\r\n\twidth: 70px;\r\n\tborder-radius:50% !important;\r\n\ttext-align: center !important;\r\n\tfloat: left !important;\r\n}\r\n\r\n#wpsm_service_b_row_364 .wpsm_serviceBox .wpsm_service-icon i{\r\n\tfont-size:30px !important;\r\n\tcolor: #08023a !important;\r\n\tline-height: 70px;\r\n}\r\n   \r\n#wpsm_service_b_row_364 .wpsm_serviceBox .wpsm_service-content {\r\n\tmargin-left: 95px;\r\n}\r\n#wpsm_service_b_row_364 .wpsm_serviceBox .wpsm_service-content h3{\r\n\tcolor: #000000 !important;\r\n\tfont-size: 22px !important;\r\n\tfont-weight: 600;\r\n\t\tfont-family:'Open Sans' !important;\r\n\t\tmargin-top: 0;\r\n\tclear:inherit !important;\r\n\tline-height:1.4 !important;\r\n\tmargin-bottom:0px !important;\r\n\t\r\n}\r\n#wpsm_service_b_row_364 .wpsm_serviceBox .wpsm_service-content p{\r\n\tcolor:#7f7f7f !important;\r\n\tfont-size: 19px !important;\r\n\tline-height:1.4 !important;\r\n\t\tfont-family:'Open Sans' !important;\r\n\t\tmargin-top:10px;\r\n\tmargin-bottom:0px;\r\n\t\r\n}\r\n#wpsm_service_b_row_364 .wpsm_serviceBox .wpsm_read{\r\n\tcolor: #08023a !important;\r\n\tfont-size: 16px !important;\r\n\t\tfont-family:'Open Sans' !important;\r\n\t\ttext-decoration: none;\r\n\tborder-bottom: 1px solid;\r\n\t margin-top:15px;\r\n\t display: inline-block;\r\n}\r\n<\/style>\r\n\r\n\t\t\t\r\n\t\t\t\t<div class=\"wpsm_col-md-4 wpsm_col-sm-6\">\r\n                    <div class=\"wpsm_serviceBox\">\r\n\t\t\t\t\t\t                       \r\n\t\t\t\t\t\t\t<div class=\"wpsm_service-icon\">\r\n\t\t\t\t\t\t\t\t<i class=\"fa fa-support\"><\/i>\r\n\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t                        <div class=\"wpsm_service-content\">\r\n                            <h3>Academic Support<\/h3>\r\n                            <p> Academic Support<\/p>\r\n                            \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<a target=\"_blank\" href=\"#\" class=\"wpsm_read\">Read More                                \r\n                            <\/a>\r\n\t\t\t\t\t\t\t                        <\/div>\r\n                    <\/div>\r\n                <\/div>\r\n\r\n\t\t\t\t\r\n\t\t\t\t<div class=\"wpsm_col-md-4 wpsm_col-sm-6\">\r\n                    <div class=\"wpsm_serviceBox\">\r\n\t\t\t\t\t\t                       \r\n\t\t\t\t\t\t\t<div class=\"wpsm_service-icon\">\r\n\t\t\t\t\t\t\t\t<i class=\"fa fa-align-center\"><\/i>\r\n\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t                        <div class=\"wpsm_service-content\">\r\n                            <h3>Cataloging<\/h3>\r\n                            <p> Cataloging<\/p>\r\n                            \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<a target=\"_blank\" href=\"#\" class=\"wpsm_read\">Read More                                \r\n                            <\/a>\r\n\t\t\t\t\t\t\t                        <\/div>\r\n                    <\/div>\r\n                <\/div>\r\n\r\n\t\t\t\t\r\n\t\t\t\t<div class=\"wpsm_col-md-4 wpsm_col-sm-6\">\r\n                    <div class=\"wpsm_serviceBox\">\r\n\t\t\t\t\t\t                       \r\n\t\t\t\t\t\t\t<div class=\"wpsm_service-icon\">\r\n\t\t\t\t\t\t\t\t<i class=\"fa fa-book\"><\/i>\r\n\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t                        <div class=\"wpsm_service-content\">\r\n                            <h3>Circulation \/ Borrowing<\/h3>\r\n                            <p> Circulation \/ Borrowing<\/p>\r\n                            \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<a target=\"_blank\" href=\"#\" class=\"wpsm_read\">Read More                                \r\n                            <\/a>\r\n\t\t\t\t\t\t\t                        <\/div>\r\n                    <\/div>\r\n                <\/div>\r\n\r\n\t\t\t\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t<div class=\"wpsm_row\">\r\n\t\t\t\t\t\t    \r\n\r\n<\/div>\t   \t\t<\/div>\r\n\t\t\r\n\t<br \/>\n\t\t<div class=\"wpsm_service_b_row\" id=\"wpsm_service_b_row_364\">\r\n\t\t\t<div class=\"wpsm_row\"> \r\n<style>\r\n.wpsm_row{\r\n\toverflow:hidden;\r\n\tdisplay:block;\r\n\twidth:100%;\r\n}\r\n.wpsm_service_b_row{ \r\n\toverflow:hidden;\r\n\tdisplay:block;\r\n\twidth:100%;\r\n\tborder:0px solid #ddd;\r\n\tmargin-bottom:20px;\r\n}\r\n #wpsm_service_b_row_364 .wpsm_serviceBox{\r\n\tpadding:30px 0 ;\r\n\tmargin-bottom:20px;\r\n}\r\n#wpsm_service_b_row_364 .wpsm_serviceBox .wpsm_service-icon{\r\n\tbackground:#dddddd !important;\r\n\theight: 70px;\r\n\twidth: 70px;\r\n\tborder-radius:50% !important;\r\n\ttext-align: center !important;\r\n\tfloat: left !important;\r\n}\r\n\r\n#wpsm_service_b_row_364 .wpsm_serviceBox .wpsm_service-icon i{\r\n\tfont-size:30px !important;\r\n\tcolor: #08023a !important;\r\n\tline-height: 70px;\r\n}\r\n   \r\n#wpsm_service_b_row_364 .wpsm_serviceBox .wpsm_service-content {\r\n\tmargin-left: 95px;\r\n}\r\n#wpsm_service_b_row_364 .wpsm_serviceBox .wpsm_service-content h3{\r\n\tcolor: #000000 !important;\r\n\tfont-size: 22px !important;\r\n\tfont-weight: 600;\r\n\t\tfont-family:'Open Sans' !important;\r\n\t\tmargin-top: 0;\r\n\tclear:inherit !important;\r\n\tline-height:1.4 !important;\r\n\tmargin-bottom:0px !important;\r\n\t\r\n}\r\n#wpsm_service_b_row_364 .wpsm_serviceBox .wpsm_service-content p{\r\n\tcolor:#7f7f7f !important;\r\n\tfont-size: 19px !important;\r\n\tline-height:1.4 !important;\r\n\t\tfont-family:'Open Sans' !important;\r\n\t\tmargin-top:10px;\r\n\tmargin-bottom:0px;\r\n\t\r\n}\r\n#wpsm_service_b_row_364 .wpsm_serviceBox .wpsm_read{\r\n\tcolor: #08023a !important;\r\n\tfont-size: 16px !important;\r\n\t\tfont-family:'Open Sans' !important;\r\n\t\ttext-decoration: none;\r\n\tborder-bottom: 1px solid;\r\n\t margin-top:15px;\r\n\t display: inline-block;\r\n}\r\n<\/style>\r\n\r\n\t\t\t\r\n\t\t\t\t<div class=\"wpsm_col-md-4 wpsm_col-sm-6\">\r\n                    <div class=\"wpsm_serviceBox\">\r\n\t\t\t\t\t\t                       \r\n\t\t\t\t\t\t\t<div class=\"wpsm_service-icon\">\r\n\t\t\t\t\t\t\t\t<i class=\"fa fa-support\"><\/i>\r\n\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t                        <div class=\"wpsm_service-content\">\r\n                            <h3>Academic Support<\/h3>\r\n                            <p> Academic Support<\/p>\r\n                            \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<a target=\"_blank\" href=\"#\" class=\"wpsm_read\">Read More                                \r\n                            <\/a>\r\n\t\t\t\t\t\t\t                        <\/div>\r\n                    <\/div>\r\n                <\/div>\r\n\r\n\t\t\t\t\r\n\t\t\t\t<div class=\"wpsm_col-md-4 wpsm_col-sm-6\">\r\n                    <div class=\"wpsm_serviceBox\">\r\n\t\t\t\t\t\t                       \r\n\t\t\t\t\t\t\t<div class=\"wpsm_service-icon\">\r\n\t\t\t\t\t\t\t\t<i class=\"fa fa-align-center\"><\/i>\r\n\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t                        <div class=\"wpsm_service-content\">\r\n                            <h3>Cataloging<\/h3>\r\n                            <p> Cataloging<\/p>\r\n                            \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<a target=\"_blank\" href=\"#\" class=\"wpsm_read\">Read More                                \r\n                            <\/a>\r\n\t\t\t\t\t\t\t                        <\/div>\r\n                    <\/div>\r\n                <\/div>\r\n\r\n\t\t\t\t\r\n\t\t\t\t<div class=\"wpsm_col-md-4 wpsm_col-sm-6\">\r\n                    <div class=\"wpsm_serviceBox\">\r\n\t\t\t\t\t\t                       \r\n\t\t\t\t\t\t\t<div class=\"wpsm_service-icon\">\r\n\t\t\t\t\t\t\t\t<i class=\"fa fa-book\"><\/i>\r\n\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t                        <div class=\"wpsm_service-content\">\r\n                            <h3>Circulation \/ Borrowing<\/h3>\r\n                            <p> Circulation \/ Borrowing<\/p>\r\n                            \t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<a target=\"_blank\" href=\"#\" class=\"wpsm_read\">Read More                                \r\n                            <\/a>\r\n\t\t\t\t\t\t\t                        <\/div>\r\n                    <\/div>\r\n                <\/div>\r\n\r\n\t\t\t\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t<div class=\"wpsm_row\">\r\n\t\t\t\t\t\t    \r\n\r\n<\/div>\t   \t\t<\/div>\r\n\t\t\r\n\t<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/library.ttu.edu.gh\/index.php\/wp-json\/wp\/v2\/pages\/365"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/library.ttu.edu.gh\/index.php\/wp-json\/wp\/v2\/pages"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/library.ttu.edu.gh\/index.php\/wp-json\/wp\/v2\/types\/page"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/library.ttu.edu.gh\/index.php\/wp-json\/wp\/v2\/users\/1"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/library.ttu.edu.gh\/index.php\/wp-json\/wp\/v2\/comments?post=365"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 3,
+                "href": "https:\/\/library.ttu.edu.gh\/index.php\/wp-json\/wp\/v2\/pages\/365\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 375,
+                "href": "https:\/\/library.ttu.edu.gh\/index.php\/wp-json\/wp\/v2\/pages\/365\/revisions\/375"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/library.ttu.edu.gh\/index.php\/wp-json\/wp\/v2\/media?parent=365"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}
