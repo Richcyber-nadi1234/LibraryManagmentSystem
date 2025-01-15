@@ -188,7 +188,7 @@ gtag("config", "UA-193270751-1", {"anonymize_ip":true});
 	<li id="menu-item-243" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-243"><a href="model/research-tools/index.html">Research Tools</a></li>
 	<li id="menu-item-244" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-244"><a href="model/requests-of-literature-search.html">Requests of Literature Search</a></li>
 	<li id="menu-item-245" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-245"><a href="model/recommend-a-book-for-purchase/index.html">Recommend a book for purchase</a></li>
-	<li id="menu-item-246" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-246"><a href="model/chat-with-librarian/index.html">Chat with Librarian</a></li>
+	<li id="menu-item-246" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-246"><a href="wa.me/+233538089016">Chat with Librarian</a></li>
 	<li id="menu-item-247" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-247"><a href="model/research-guides/index.html">Research Guides</a></li>
 	<li id="menu-item-248" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-248"><a href="model/research-commons/index.html">Research Commons</a></li>
 </ul>
@@ -202,7 +202,9 @@ gtag("config", "UA-193270751-1", {"anonymize_ip":true});
 	<li id="menu-item-255" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-255"><a href="model/open-access-database/index.html">Open Access Database</a></li>
 	<li id="menu-item-256" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-256"><a href="model/databasestrail/index.html">Databases(Trail)</a></li>
 </ul>
+<li id="menu-item-333" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-333"><a href="../Users/login.html" aria-current="page">Login</a>
 </li>
+
 </ul></div>			</nav>
 		</div><!-- navigation -->
 			</div><!-- .header-inner--><div class="clear"></div>  
@@ -215,7 +217,7 @@ gtag("config", "UA-193270751-1", {"anonymize_ip":true});
               </div>
             <div id="slidecaption1" class="nivo-html-caption">
       <div class="top-bar" >
-        <h2><a href="https://www.emerald.com/insight/">Connect to Emrald</a></h2>
+        <h2><a href="https://www.emerald.com/insight/">Connect to Emerald</a></h2>
         <p style="
      white-space: nowrap;
      overflow: hidden;
@@ -309,23 +311,33 @@ function showResult(str) {
     </div>
 	<!-- advanced search bar to brows from the web  -->
  
-    <section id="web-search" style="text-align: center; margin-top: 20px;">
-    <h2>Search the Web</h2>
+<section id="web-search" style="text-align: center; margin-top: 20px;">
+    <h2>Search Emerald Insight</h2>
     <div style="display: inline-block; position: relative; max-width: 400px; width: 100%;">
-        <input 
-            type="text" 
-            id="search-bar" 
-            placeholder="Search the web..." 
-            style="width: 100%; padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px;"
+        <form 
+            action="https://www.emerald.com/insight/search" 
+            method="GET" 
+            target="_blank" 
+            style="display: flex; align-items: center; justify-content: space-between;"
         >
-        <button 
-            onclick="searchWeb()" 
-            style="position: absolute; right: 0; top: 0; bottom: 0; background-color: #06023d; color: white; border: none; padding: 10px 15px; border-radius: 0 5px 5px 0; cursor: pointer; font-size: 16px;"
-        >
-            Search
-        </button>
+            <input 
+                type="text" 
+                name="q" 
+                id="search-bar" 
+                placeholder="Search Emerald Insight..." 
+                style="flex: 1; padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px 0 0 5px;"
+                required
+            >
+            <button 
+                type="submit" 
+                style="background-color: #06023d; color: white; border: none; padding: 10px 15px; border-radius: 0 5px 5px 0; cursor: pointer; font-size: 16px;"
+            >
+                Search
+            </button>
+        </form>
     </div>
 </section>
+
 
 <script>
     function searchWeb() {
